@@ -1,27 +1,17 @@
-"""Utility & helper functions."""
+"""Keep the template's model helper while selecting DeepSeek explicitly."""
 
-from langchain.chat_models import init_chat_model
-from langchain_core.language_models import BaseChatModel
 from langchain_core.messages import BaseMessage
+
+from memorypilot.config import Settings
+from memorypilot.providers import create_model
 
 
 def get_message_text(msg: BaseMessage) -> str:
-    """Get the text content of a message."""
-    content = msg.content
-    if isinstance(content, str):
-        return content
-    elif isinstance(content, dict):
-        return content.get("text", "")
-    else:
-        txts = [c if isinstance(c, str) else (c.get("text") or "") for c in content]
-        return "".join(txts).strip()
+    return msg.content if isinstance(msg.content, str) else str(msg.content)
 
 
-def load_chat_model(fully_specified_name: str) -> BaseChatModel:
-    """Load a chat model from a fully specified name.
-
-    Args:
-        fully_specified_name (str): String in the format 'provider/model'.
-    """
+def load_chat_model(fully_specified_name: str):
     provider, model = fully_specified_name.split("/", maxsplit=1)
-    return init_chat_model(model, model_provider=provider)
+    if provider != "deepseek":
+        raise ValueError("当前仅配置 DeepSeek；离线模式通过 MEMORYPILOT_PROVIDER=mock 选择。")
+    return create_model(Settings(model=model))

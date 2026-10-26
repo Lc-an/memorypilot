@@ -1,0 +1,13 @@
+services:
+  db:
+    image: pgvector/pgvector:pg17
+    environment:
+      POSTGRES_USER: memorypilot
+      POSTGRES_PASSWORD: memorypilot_dev_only
+      POSTGRES_DB: memorypilot
+    ports:
+      - '127.0.0.1:5432:5432'
+    volumes:
+      - memorypilot_pg:/var/lib/postgresql/data
+volumes:
+  memorypilot_pg:

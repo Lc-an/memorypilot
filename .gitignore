@@ -162,3 +162,11 @@ cython_debug/
 #.idea/
 
 .langgraph_api
+
+# MemoryPilot local runtime and credentials
+.tools/
+.data/
+.env.*
+!.env.example
+results/
+.ruff_cache/

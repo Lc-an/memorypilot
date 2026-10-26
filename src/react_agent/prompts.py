@@ -1,5 +1,5 @@
-"""Default prompts used by the agent."""
+"""Default MemoryPilot system prompt."""
 
-SYSTEM_PROMPT = """You are a helpful AI assistant.
+from memorypilot.context_builder import SYSTEM_PROMPT
 
-System time: {system_time}"""
+__all__ = ["SYSTEM_PROMPT"]

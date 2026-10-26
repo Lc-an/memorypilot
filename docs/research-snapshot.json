@@ -1,0 +1,178 @@
+{
+  "checked_at": "2026-10-24",
+  "timezone": "Asia/Shanghai",
+  "note": "代码调研快照，不代表这些项目已经安装或联调通过。",
+  "repositories": [
+    {
+      "repo": "langchain-ai/langgraph",
+      "sha": "4c52e129eb1ab69a3da58b799f67929f77d81149",
+      "date": "2026-10-24T01:02:32Z",
+      "url": "https://github.com/langchain-ai/langgraph/commit/4c52e129eb1ab69a3da58b799f67929f77d81149"
+    },
+    {
+      "repo": "promptfoo/promptfoo",
+      "sha": "c0b88a324175c60019cc80de1b2e32b4c849d4c3",
+      "date": "2026-10-23T15:31:42Z",
+      "url": "https://github.com/promptfoo/promptfoo/commit/c0b88a324175c60019cc80de1b2e32b4c849d4c3"
+    },
+    {
+      "repo": "vectorize-io/hindsight",
+      "sha": "b4a0da1e9fd2dfd052843e4f95fcf368301f6a73",
+      "date": "2026-10-23T16:50:02Z",
+      "url": "https://github.com/vectorize-io/hindsight/commit/b4a0da1e9fd2dfd052843e4f95fcf368301f6a73"
+    },
+    {
+      "repo": "mem0ai/mem0",
+      "sha": "2c81af3bbe27d9bccb09c772d583df9e9be72ee5",
+      "date": "2026-10-21T01:16:17Z",
+      "url": "https://github.com/mem0ai/mem0/commit/2c81af3bbe27d9bccb09c772d583df9e9be72ee5"
+    },
+    {
+      "repo": "getzep/graphiti",
+      "sha": "3ffc978753a95fb5f363d4f6509b65ac023379cc",
+      "date": "2026-10-23T22:07:45Z",
+      "url": "https://github.com/getzep/graphiti/commit/3ffc978753a95fb5f363d4f6509b65ac023379cc"
+    },
+    {
+      "repo": "langfuse/langfuse",
+      "sha": "f3500cd1167ec459851730913ebbb94c5003535c",
+      "date": "2026-10-23T18:15:56Z",
+      "url": "https://github.com/langfuse/langfuse/commit/f3500cd1167ec459851730913ebbb94c5003535c"
+    },
+    {
+      "repo": "langchain-ai/deepagents",
+      "sha": "a3381668c4d3b558742101fa7e6b8fe4a64e56ef",
+      "date": "2026-10-23T22:01:26Z",
+      "url": "https://github.com/langchain-ai/deepagents/commit/a3381668c4d3b558742101fa7e6b8fe4a64e56ef"
+    },
+    {
+      "repo": "langchain-ai/react-agent",
+      "sha": "5c15518f0f08fbd97b1c8b6437db6656e3920229",
+      "date": "2026-10-23T03:52:45Z",
+      "url": "https://github.com/langchain-ai/react-agent/commit/5c15518f0f08fbd97b1c8b6437db6656e3920229"
+    },
+    {
+      "repo": "xiaowu0162/LongMemEval",
+      "sha": "9e0b455f4ef0e2ab8f2e582289761153549043fc",
+      "date": "2026-05-11T22:49:24Z",
+      "url": "https://github.com/xiaowu0162/LongMemEval/commit/9e0b455f4ef0e2ab8f2e582289761153549043fc"
+    },
+    {
+      "repo": "xiaowu0162/LongMemEval-V2",
+      "sha": "2cc8c540bdb87fe6761629b585e727e1c4704520",
+      "date": "2026-08-09T22:31:22Z",
+      "url": "https://github.com/xiaowu0162/LongMemEval-V2/commit/2cc8c540bdb87fe6761629b585e727e1c4704520"
+    },
+    {
+      "repo": "OSU-NLP-Group/TravelPlanner",
+      "sha": "e52c87f4ac348a3410c46dc3553c519db5ec5e23",
+      "date": "2026-05-24T03:31:43Z",
+      "url": "https://github.com/OSU-NLP-Group/TravelPlanner/commit/e52c87f4ac348a3410c46dc3553c519db5ec5e23"
+    },
+    {
+      "repo": "ZexueHe/MemoryArena",
+      "sha": "6cd9de14b71915e39ac742a20dc33785e14b6aab",
+      "date": "2026-06-01T00:10:42Z",
+      "url": "https://github.com/ZexueHe/MemoryArena/commit/6cd9de14b71915e39ac742a20dc33785e14b6aab"
+    },
+    {
+      "repo": "langchain-ai/langmem",
+      "sha": "48e3c11f5bb527282c7d5339c6a87a0b35abccfc",
+      "date": "2026-10-02T19:35:19Z",
+      "url": "https://github.com/langchain-ai/langmem/commit/48e3c11f5bb527282c7d5339c6a87a0b35abccfc"
+    }
+  ],
+  "pypi": [
+    {
+      "package": "langgraph",
+      "version": "1.2.17",
+      "python": ">=3.10",
+      "published": "2026-10-24T01:07:49.155588Z",
+      "url": "https://pypi.org/project/langgraph/1.2.17/"
+    },
+    {
+      "package": "langmem",
+      "version": "0.0.30",
+      "python": ">=3.10",
+      "published": "2025-10-27T22:21:54.647368Z",
+      "url": "https://pypi.org/project/langmem/0.0.30/"
+    },
+    {
+      "package": "langgraph-checkpoint-postgres",
+      "version": "3.2.0",
+      "python": ">=3.10",
+      "published": "2026-10-14T19:54:40.048454Z",
+      "url": "https://pypi.org/project/langgraph-checkpoint-postgres/3.2.0/"
+    },
+    {
+      "package": "psycopg",
+      "version": "3.3.6",
+      "python": ">=3.10",
+      "published": "2026-09-18T13:15:29.374570Z",
+      "url": "https://pypi.org/project/psycopg/3.3.6/"
+    },
+    {
+      "package": "sentence-transformers",
+      "version": "6.2.0",
+      "python": ">=3.10",
+      "published": "2026-10-21T12:26:49.022071Z",
+      "url": "https://pypi.org/project/sentence-transformers/6.2.0/"
+    },
+    {
+      "package": "streamlit",
+      "version": "1.66.1",
+      "python": ">=3.11",
+      "published": "2026-10-21T17:02:55.973443Z",
+      "url": "https://pypi.org/project/streamlit/1.66.1/"
+    },
+    {
+      "package": "fastapi",
+      "version": "0.162.0",
+      "python": ">=3.10",
+      "published": "2026-10-23T18:47:31.734776Z",
+      "url": "https://pypi.org/project/fastapi/0.162.0/"
+    },
+    {
+      "package": "langfuse",
+      "version": "5.0.4",
+      "python": "<4.0,>=3.11",
+      "published": "2026-10-21T07:36:06.457679Z",
+      "url": "https://pypi.org/project/langfuse/5.0.4/"
+    },
+    {
+      "package": "mem0ai",
+      "version": "2.2.1",
+      "python": "<4.0,>=3.10",
+      "published": "2026-09-25T17:36:07.480270Z",
+      "url": "https://pypi.org/project/mem0ai/2.2.1/"
+    },
+    {
+      "package": "hindsight-client",
+      "version": "1.1.0",
+      "python": ">=3.10",
+      "published": "2026-10-21T16:17:14.681556Z",
+      "url": "https://pypi.org/project/hindsight-client/1.1.0/"
+    },
+    {
+      "package": "deepagents",
+      "version": "0.7.32",
+      "python": "<4.0,>=3.11",
+      "published": "2026-10-23T21:30:23.235629Z",
+      "url": "https://pypi.org/project/deepagents/0.7.32/"
+    },
+    {
+      "package": "huggingface-hub",
+      "version": "2.3.0",
+      "python": ">=3.10.0",
+      "published": "2026-10-23T08:52:04.780491Z",
+      "url": "https://pypi.org/project/huggingface-hub/2.3.0/"
+    },
+    {
+      "package": "datasets",
+      "version": "5.1.0",
+      "python": ">=3.10.0",
+      "published": "2026-10-05T15:32:29.892972Z",
+      "url": "https://pypi.org/project/datasets/5.1.0/"
+    }
+  ]
+}
